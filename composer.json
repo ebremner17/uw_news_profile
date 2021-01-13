@@ -52,7 +52,6 @@
         "ebremner17/uw_news_cfg": "1.x",
         "ebremner17/uw_news_dev": "1.x",
         "ebremner17/uw_news_theme": "1.x",
-        "drupal/vardumper": "1.5",
         "oomphinc/composer-installers-extender": "2.0.0"
     },
     "extra": {
