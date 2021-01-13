@@ -8,13 +8,17 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        "ebremner17/uw_news_theme": {
-            "type": "vcs",
-            "url": "https://github.com/ebremner17/uw_news_theme.git"
-        },
         "ebremner17/uw_news_cfg": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/uw_news_cfg.git"
+        },
+        "ebremner17/uw_news_dev": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/uw_news_dev.git"
+        },
+        "ebremner17/uw_news_theme": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/uw_news_theme.git"
         }
     },
     "conflict": {
@@ -43,6 +47,7 @@
         "drupal/twig_field_value": "2.0.0",
         "drupal/twig_tweak": "3.0.0-rc2",
         "ebremner17/uw_news_cfg": "1.x",
+        "ebremner17/uw_news_dev": "1.x",
         "ebremner17/uw_news_theme": "1.x",
         "oomphinc/composer-installers-extender": "2.0.0"
     },
