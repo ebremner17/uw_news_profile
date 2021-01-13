@@ -1,0 +1,6 @@
+name: UW News profile
+type: profile
+description: 'A profile for UW news web app'
+core: ^9
+themes:
+  - claro

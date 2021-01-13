@@ -1,0 +1,59 @@
+{
+    "name": "uw_news_profile/uw_news_profile",
+    "description": "A drupal profile for UW news web app",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/9"
+        }
+    },
+    "conflict": {
+        "drupal/drupal": "*",
+        "drupal-custom-module/drupal-custom-module": "*",
+        "drupal-custom-theme/drupal-custom-theme": "*"
+    },
+    "config": {
+        "secure-http": false,
+        "sort-packages": true,
+        "vendor-dir": "../../vendor"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "composer/installers": "^1.7",
+        "cweagans/composer-patches": "1.6.3",
+        "drupal/better_exposed_filters": "5.x-dev",
+        "drupal/config_update": "1.7",
+        "drupal/dashboards": "1.0-beta10",
+        "drupal/devel": "4.0.0",
+        "drupal/draggableviews": "2.0.0",
+        "drupal/editor_file": "1.5",
+        "drupal/features": "3.11",
+        "drupal/pathauto": "1.8",
+        "drupal/redirect_after_login": "2.6",
+        "drupal/twig_field_value": "2.0.0",
+        "drupal/twig_tweak": "3.0.0-rc2",
+        "oomphinc/composer-installers-extender": "v1.1.2"
+    },
+    "extra": {
+        "installer-types": [
+            "drupal",
+            "drupal-custom-module"
+        ],
+        "installer-paths": {
+            "../../core": [
+                "type:drupal-core"
+            ],
+            "modules/features/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "themes/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        }
+    }
+}
