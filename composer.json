@@ -6,7 +6,7 @@
     "repositories": {
         "drupal": {
             "type": "composer",
-            "url": "https://packages.drupal.org/9"
+            "url": "https://packages.drupal.org/8"
         }
     },
     "conflict": {
@@ -22,9 +22,9 @@
     "minimum-stability": "dev",
     "require": {
         "composer/installers": "^1.7",
-        "cweagans/composer-patches": "1.6.3",
-        "drupal/better_exposed_filters": "5.x-dev",
+        "cweagans/composer-patches": "1.7.0",
         "drupal/config_update": "1.7",
+        "drupal/core": "9.1.2",
         "drupal/dashboards": "1.0-beta10",
         "drupal/devel": "4.0.0",
         "drupal/draggableviews": "2.0.0",
@@ -34,7 +34,7 @@
         "drupal/redirect_after_login": "2.6",
         "drupal/twig_field_value": "2.0.0",
         "drupal/twig_tweak": "3.0.0-rc2",
-        "oomphinc/composer-installers-extender": "v1.1.2"
+        "oomphinc/composer-installers-extender": "2.0.0"
     },
     "extra": {
         "installer-types": [
